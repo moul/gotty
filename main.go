@@ -33,6 +33,7 @@ func main() {
 		flag{"reconnect", "", "Enable reconnection"},
 		flag{"reconnect-time", "", "Time to reconnect"},
 		flag{"once", "", "Accept only one client and exit on disconnection"},
+		flag{"permit-arguments", "", "Allow to send arguments"},
 	}
 
 	mappingHint := map[string]string{
